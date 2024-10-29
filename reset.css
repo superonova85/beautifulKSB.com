@@ -1,0 +1,55 @@
+/* Reset margin dan padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Reset font */
+body {
+    font-family: sans-serif; /* atau font lain yang diinginkan */
+}
+
+/* Menghapus border untuk elemen tertentu */
+h1, h2, h3, h4, h5, h6, p {
+    border: 0;
+}
+
+/* Menghilangkan list styling */
+ul, ol {
+    list-style: none;
+}
+
+/* Menghilangkan garis bawah pada tautan */
+a {
+    text-decoration: none;
+}
+
+/* Mengatur gambar agar responsif */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Mengatur tabel */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Reset tampilan input dan button */
+input, button, textarea {
+    font-family: inherit; /* Menggunakan font dari elemen induk */
+    font-size: inherit; /* Menggunakan ukuran font dari elemen induk */
+    line-height: inherit; /* Menggunakan line-height dari elemen induk */
+}
+
+/* Menghilangkan outline pada elemen yang aktif */
+:focus {
+    outline: none;
+}
+
+/* Mengatur tampilan default untuk elemen semantik */
+header, nav, section, article, aside, footer {
+    display: block;
+}
